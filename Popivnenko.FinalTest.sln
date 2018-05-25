@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Popivnenko.FinalTest", "Popivnenko.FinalTest\Popivnenko.FinalTest.csproj", "{610666AF-E52F-4A20-90A0-774FBE3F92B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Popivnenko.FinalTest", "Popivnenko.FinalTest\Popivnenko.FinalTest.csproj", "{610666AF-E52F-4A20-90A0-774FBE3F92B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{7499F181-02EA-46AF-BE9C-098FF6A41558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayGeneratorTestProject", "ArrayGeneratorTestProject\ArrayGeneratorTestProject.csproj", "{897C2571-CB4B-48E7-ADCA-BB5AC0DB4193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7499F181-02EA-46AF-BE9C-098FF6A41558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7499F181-02EA-46AF-BE9C-098FF6A41558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7499F181-02EA-46AF-BE9C-098FF6A41558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897C2571-CB4B-48E7-ADCA-BB5AC0DB4193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897C2571-CB4B-48E7-ADCA-BB5AC0DB4193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897C2571-CB4B-48E7-ADCA-BB5AC0DB4193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897C2571-CB4B-48E7-ADCA-BB5AC0DB4193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

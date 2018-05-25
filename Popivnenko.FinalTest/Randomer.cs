@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Popivnenko.FinalTest
 {
@@ -21,6 +19,12 @@ namespace Popivnenko.FinalTest
             return result;
         }
 
+        public double GenerateDoubleBetween(double minValue, double maxValue)
+        {
+            return GenerateBetweenDoubles(minValue, maxValue);
+        }
+
+        // using this method any other genration variant can be implemented
         private double GenerateBetweenDoubles(double minValue, double maxValue)
         {
             double result = random.NextDouble() * (maxValue - minValue) + minValue;

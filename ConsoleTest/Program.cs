@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Popivnenko.FinalTest;
 
 namespace ConsoleTest
@@ -34,6 +30,18 @@ namespace ConsoleTest
             }
 
             Console.WriteLine($"sum for flat generation is {sum}");
+            Console.WriteLine("___________________");
+
+            result = arrayGenerator.GenerateWithMax(3, 0.4);
+            sum = 0.0;
+
+            foreach (var elem in result)
+            {
+                Console.WriteLine(elem);
+                sum += elem;
+            }
+
+            Console.WriteLine($"sum for max generation is {sum}");
             Console.WriteLine("___________________");
 
             Console.ReadLine();
