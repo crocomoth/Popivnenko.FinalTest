@@ -10,6 +10,7 @@ namespace ArrayGeneratorTestProject
     {
         private ArrayGenerator arrayGenerator = new ArrayGenerator();
         private const double Epsilon = 0.001; 
+		//hello world
 
         [TestMethod]
         public void GenerateDependentTest()
